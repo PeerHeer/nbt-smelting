@@ -2203,7 +2203,6 @@ class SingleItemRecipe():
             self.recipe_id = get_recipe_id_from_file_path(os.path.join(path_to_function_recipes, self.name + ".mcfunction"))
         if self.recipe_id is None:
             self.recipe_id = self.get_recipe_id(path_to_function_recipes)
-        print(self.recipe_id)
 
         with open(os.path.join(path_to_function_recipes, self.name + ".mcfunction"), 'w') as f:
             f.write(self.get_recipe_content())
@@ -2534,14 +2533,12 @@ def get_used_ids():
 
     for recipe_file, path in files:
         used_ids.append(get_recipe_id_from_file_path(os.path.join(path, recipe_file)))
-    print(used_ids)
 
     return used_ids
 
 
 def get_recipe_id_from_file_path(path):
     with open(path, 'r') as f:
-        print(path)
         for line in f:
             if "#nbtsmelt.recipe.id" in line:
                 return int(line.strip().split()[-1])

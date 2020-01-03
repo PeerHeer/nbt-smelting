@@ -29,13 +29,15 @@ def main(args):
             result = re.match(regex, d)
             if result is not None:
                 path_to_dir = os.path.join(root, d)
-                print("Removing directory: " + path_to_dir)
+                if verbose:
+                    print("Removing directory: " + path_to_dir)
                 shutil.rmtree(path_to_dir)
         for f in files:
             result = re.match(regex, f)
             if result is not None:
                 path_to_file = os.path.join(root, f)
-                print("Removing file: " + path_to_file)
+                if verbose:
+                    print("Removing file: " + path_to_file)
                 os.remove(path_to_file)
 
     # Delete from function tag
@@ -58,8 +60,11 @@ def main(args):
                     at_functions = False
                 elif at_functions and string_id not in line:
                     line = line.rstrip()
-                    line = line[:-1] if line[-1] == ',' else line
-                    function_tag_functions.append(line)
+                    if line != "":
+                        line = line[:-1] if line[-1] == ',' else line
+                        function_tag_functions.append(line)
+                elif string_id in line and verbose:
+                    print(f"Removing '{line.strip()}' from function tag...")
 
         with open(os.path.join(path_to_function_tags, 'recipes.json'), 'w') as f:
             f.write(''.join(function_tag_content))
@@ -82,22 +87,13 @@ def main(args):
                 if string_id not in line:
                     file_content.append(line)
                 else:
+                    if verbose:
+                        print(f"Removing '{line.strip()}' from file '{check_recipes_file}'...")
                     has_id = True
-        if not has_id:
-            continue
-        else:
+        if has_id:
             with open(check_recipes_file, 'w') as f:
                 f.write(''.join(file_content))
-            break
 
-
-    # path_to_recipes = os.path.join(path_to_namespace, 'recipes')
-    # path_to_predicates = os.path.join(path_to_namespace, 'predicates', 'recipes')
-    # path_to_function_recipes = os.path.join(path_to_namespace, 'functions', 'recipes', block)
-    # path_to_get_recipe = os.path.join(path_to_namespace, 'functions', 'smelting', block, 'get_recipe')
-    # path_to_found_recipe = os.path.join(path_to_get_recipe, 'found_recipe')
-    # path_to_function_tags = os.path.join(path_to_namespace, 'tags', 'functions')
-    # path_to_check_recipes = os.path.join(path_to_get_recipe, 'check_recipes')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
