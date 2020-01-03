@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+"nbtsmelt:recipes/furnace/valid_file_egg",
+"nbtsmelt:recipes/furnace/valid_file_black_carpet",
+"nbtsmelt:recipes/furnace/valid_file_red_carpet",
+"nbtsmelt:recipes/furnace/valid_file_green_carpet",
+"nbtsmelt:recipes/furnace/valid_file_brown_carpet",
+"nbtsmelt:recipes/furnace/valid_file_blue_carpet",
+"nbtsmelt:recipes/furnace/valid_file_purple_carpet",
+"nbtsmelt:recipes/furnace/valid_file_cyan_carpet",
+"nbtsmelt:recipes/furnace/valid_file_light_gray_carpet",
+"nbtsmelt:recipes/furnace/valid_file_gray_carpet",
+"nbtsmelt:recipes/furnace/valid_file_pink_carpet",
+"nbtsmelt:recipes/furnace/valid_file_lime_carpet",
+"nbtsmelt:recipes/furnace/valid_file_yellow_carpet",
+"nbtsmelt:recipes/furnace/valid_file_light_blue_carpet",
+"nbtsmelt:recipes/furnace/valid_file_magenta_carpet",
+"nbtsmelt:recipes/furnace/valid_file_orange_carpet",
+"nbtsmelt:recipes/furnace/valid_file_white_carpet"
+    ]
+}

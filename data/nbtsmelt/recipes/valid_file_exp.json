@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "group": "nbtsmelt:impossible",
+    "ingredient": {
+        "item": "minecraft:bedrock"
+    },
+    "result": "minecraft:bedrock",
+    "experience": 20.0,
+    "cookingtime": 2147483647
+}

@@ -1,0 +1,30 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "item": "minecraft:coal",
+                        "count": {
+                            "max": 62
+                        }
+                    }
+                }
+            },
+            "entity": "this"
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "item": "minecraft:air"
+                    }
+                }
+            },
+            "entity": "this"
+        }
+    ]
+}

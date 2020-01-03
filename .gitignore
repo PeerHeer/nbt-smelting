@@ -1,0 +1,3 @@
+*.txt
+parse_test/*
+.datapack/*

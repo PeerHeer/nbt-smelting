@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:wooden_doors",
+        "#minecraft:signs",
+        "minecraft:wooden_sword",
+        "minecraft:wooden_axe",
+        "minecraft:wooden_hoe",
+        "minecraft:wooden_shovel",
+        "minecraft:wooden_pickaxe"
+    ]
+}

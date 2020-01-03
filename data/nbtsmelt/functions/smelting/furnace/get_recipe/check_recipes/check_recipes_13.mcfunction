@@ -1,0 +1,1 @@
+execute if predicate nbtsmelt:recipes/valid_file_egg/input if predicate nbtsmelt:recipes/valid_file_egg/output run function nbtsmelt:smelting/furnace/get_recipe/found_recipe/valid_file_egg

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "furnace_placed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:furnace"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbtsmelt:furnace_placed/advancement_triggered"
+    }
+}

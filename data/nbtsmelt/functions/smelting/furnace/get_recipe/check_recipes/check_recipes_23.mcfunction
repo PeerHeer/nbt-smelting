@@ -1,0 +1,3 @@
+execute if predicate nbtsmelt:recipes/valid_file_orange_carpet/input if predicate nbtsmelt:recipes/valid_file_orange_carpet/output run function nbtsmelt:smelting/furnace/get_recipe/found_recipe/valid_file_orange_carpet
+execute if predicate nbtsmelt:recipes/valid_file_yellow_carpet/input if predicate nbtsmelt:recipes/valid_file_yellow_carpet/output run function nbtsmelt:smelting/furnace/get_recipe/found_recipe/valid_file_yellow_carpet
+execute if predicate nbtsmelt:recipes/valid_file_purple_carpet/input if predicate nbtsmelt:recipes/valid_file_purple_carpet/output run function nbtsmelt:smelting/furnace/get_recipe/found_recipe/valid_file_purple_carpet

@@ -1,0 +1,11 @@
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 11 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_11
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 12 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_12
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 13 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_13
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 14 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_14
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 15 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_15
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 16 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_16
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 17 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_17
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 18 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_18
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 19 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_19
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 20 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_20
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 21 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_21

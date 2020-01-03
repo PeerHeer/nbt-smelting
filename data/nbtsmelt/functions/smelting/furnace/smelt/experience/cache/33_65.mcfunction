@@ -1,0 +1,3 @@
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 33..43 run function nbtsmelt:smelting/furnace/smelt/experience/cache/33_43
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 44..54 run function nbtsmelt:smelting/furnace/smelt/experience/cache/44_54
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 55..65 run function nbtsmelt:smelting/furnace/smelt/experience/cache/55_65

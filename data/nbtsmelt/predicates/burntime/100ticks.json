@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "nbtsmelt:burntime/100ticks"
+                    }
+                }
+            },
+            "entity": "this"
+        }
+    ]
+}

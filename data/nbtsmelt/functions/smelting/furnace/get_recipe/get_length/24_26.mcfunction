@@ -1,0 +1,3 @@
+execute if score #nbtsmelt.recipe.id.length nbtsmelt.var matches 24 run function nbtsmelt:smelting/furnace/get_recipe/check_recipes/check_recipes_24
+execute if score #nbtsmelt.recipe.id.length nbtsmelt.var matches 25 run function nbtsmelt:smelting/furnace/get_recipe/check_recipes/check_recipes_25
+execute if score #nbtsmelt.recipe.id.length nbtsmelt.var matches 26 run function nbtsmelt:smelting/furnace/get_recipe/check_recipes/check_recipes_26

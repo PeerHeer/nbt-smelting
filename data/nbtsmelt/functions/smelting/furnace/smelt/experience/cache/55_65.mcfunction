@@ -1,0 +1,11 @@
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 55 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_55
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 56 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_56
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 57 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_57
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 58 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_58
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 59 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_59
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 60 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_60
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 61 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_61
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 62 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_62
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 63 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_63
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 64 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_64
+execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 65 run function nbtsmelt:smelting/furnace/smelt/experience/cache/check/check_65
