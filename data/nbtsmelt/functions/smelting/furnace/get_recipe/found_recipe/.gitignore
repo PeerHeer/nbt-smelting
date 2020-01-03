@@ -1,0 +1,4 @@
+# Recipes are custom and should not be part of the repository
+*
+!.gitignore
+!README.md
