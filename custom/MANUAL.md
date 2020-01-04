@@ -10,6 +10,34 @@ The recipe parser parses recipes from JSON files. The files have the [same forma
 
 For parsed recipes that contain items that are already used in vanilla recipes, the vanilla recipe will be (partially) replaced. When the `nbt` field in the `ingredient` is specified, the vanilla recipe will be converted to an NBT Smelting recipe and will only be applied to items that do not match the previously mentioned `nbt` field value.
 
+## JSON Format
+```json
+{
+    "type": "<type>",
+    "ingredient": {
+        "item": "<item>",
+        "tag": "<tag>",
+        "nbt": "{<nbt>}",
+        "count": 0
+    },
+    "ingredient": [
+        {
+            "item": "<item>",
+            "tag": "<tag>",
+            "nbt": "{<nbt>}",
+            "count": 0
+        }
+    ],
+    "result": {
+        "item": "<item>",
+        "nbt": "{<nbt>}",
+        "count": 0
+    },
+    "experience": 0.0,
+    "cookingtime": 0
+}
+```
+
 ## Arguments
 | Argument | Description |
 |----------|-------------|
