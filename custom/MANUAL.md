@@ -32,6 +32,7 @@ The parser will return with exit code 1 if at least one of the following conditi
 
 The parsing of a single recipe file will fail if at least one of the following conditions is met:
 - The file contains invalid JSON.
+- The recipe already exists and the `--no-replace` option is enabled.
 - The `type` field is not specified or has an invaid value (must be `minecraft:smelting`, `minecraft:blasting` or `minecraft:smoking`).
 - The `ingredient` field is not specified or has an invalid data type (must be `list` or `dict`).
 - The `result` field is not specified or has an invalid data type (must be `dict`).
