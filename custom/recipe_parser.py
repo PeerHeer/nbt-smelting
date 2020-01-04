@@ -2075,6 +2075,338 @@ max_stack_sizes = {"minecraft:acacia_boat":1,
 "minecraft:zombie_spawn_egg":64,
 "minecraft:zombie_villager_spawn_egg":64}
 
+vanilla_ingredients = {
+    "minecraft:acacia_log": [
+        "charcoal.json"
+    ],
+    "minecraft:acacia_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:beef": [
+        "cooked_beef.json",
+        "cooked_beef_from_smoking.json"
+    ],
+    "minecraft:birch_log": [
+        "charcoal.json"
+    ],
+    "minecraft:birch_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:black_terracotta": [
+        "black_glazed_terracotta.json"
+    ],
+    "minecraft:blue_terracotta": [
+        "blue_glazed_terracotta.json"
+    ],
+    "minecraft:brown_terracotta": [
+        "brown_glazed_terracotta.json"
+    ],
+    "minecraft:cactus": [
+        "green_dye.json"
+    ],
+    "minecraft:chainmail_boots": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:chainmail_chestplate": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:chainmail_helmet": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:chainmail_leggings": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:chicken": [
+        "cooked_chicken.json",
+        "cooked_chicken_from_smoking.json"
+    ],
+    "minecraft:chorus_fruit": [
+        "popped_chorus_fruit.json"
+    ],
+    "minecraft:clay": [
+        "terracotta.json"
+    ],
+    "minecraft:clay_ball": [
+        "brick.json"
+    ],
+    "minecraft:coal_ore": [
+        "coal_from_blasting.json",
+        "coal_from_smelting.json"
+    ],
+    "minecraft:cobblestone": [
+        "stone.json"
+    ],
+    "minecraft:cod": [
+        "cooked_cod.json",
+        "cooked_cod_from_smoking.json"
+    ],
+    "minecraft:cyan_terracotta": [
+        "cyan_glazed_terracotta.json"
+    ],
+    "minecraft:dark_oak_log": [
+        "charcoal.json"
+    ],
+    "minecraft:dark_oak_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:diamond_ore": [
+        "diamond_from_blasting.json",
+        "diamond_from_smelting.json"
+    ],
+    "minecraft:emerald_ore": [
+        "emerald_from_blasting.json",
+        "emerald_from_smelting.json"
+    ],
+    "minecraft:gold_ore": [
+        "gold_ingot.json",
+        "gold_ingot_from_blasting.json"
+    ],
+    "minecraft:golden_axe": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_boots": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_chestplate": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_helmet": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_hoe": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_horse_armor": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_leggings": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_pickaxe": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_shovel": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:golden_sword": [
+        "gold_nugget_from_blasting.json",
+        "gold_nugget_from_smelting.json"
+    ],
+    "minecraft:gray_terracotta": [
+        "gray_glazed_terracotta.json"
+    ],
+    "minecraft:green_terracotta": [
+        "green_glazed_terracotta.json"
+    ],
+    "minecraft:iron_axe": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_boots": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_chestplate": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_helmet": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_hoe": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_horse_armor": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_leggings": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_ore": [
+        "iron_ingot.json",
+        "iron_ingot_from_blasting.json"
+    ],
+    "minecraft:iron_pickaxe": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_shovel": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:iron_sword": [
+        "iron_nugget_from_blasting.json",
+        "iron_nugget_from_smelting.json"
+    ],
+    "minecraft:jungle_log": [
+        "charcoal.json"
+    ],
+    "minecraft:jungle_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:kelp": [
+        "dried_kelp_from_smelting.json",
+        "dried_kelp_from_smoking.json"
+    ],
+    "minecraft:lapis_ore": [
+        "lapis_from_blasting.json",
+        "lapis_from_smelting.json"
+    ],
+    "minecraft:light_blue_terracotta": [
+        "light_blue_glazed_terracotta.json"
+    ],
+    "minecraft:light_gray_terracotta": [
+        "light_gray_glazed_terracotta.json"
+    ],
+    "minecraft:lime_terracotta": [
+        "lime_glazed_terracotta.json"
+    ],
+    "minecraft:magenta_terracotta": [
+        "magenta_glazed_terracotta.json"
+    ],
+    "minecraft:mutton": [
+        "cooked_mutton.json",
+        "cooked_mutton_from_smoking.json"
+    ],
+    "minecraft:nether_quartz_ore": [
+        "quartz.json",
+        "quartz_from_blasting.json"
+    ],
+    "minecraft:netherrack": [
+        "nether_brick.json"
+    ],
+    "minecraft:oak_log": [
+        "charcoal.json"
+    ],
+    "minecraft:oak_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:orange_terracotta": [
+        "orange_glazed_terracotta.json"
+    ],
+    "minecraft:pink_terracotta": [
+        "pink_glazed_terracotta.json"
+    ],
+    "minecraft:porkchop": [
+        "cooked_porkchop.json",
+        "cooked_porkchop_from_smoking.json"
+    ],
+    "minecraft:potato": [
+        "baked_potato.json",
+        "baked_potato_from_smoking.json"
+    ],
+    "minecraft:purple_terracotta": [
+        "purple_glazed_terracotta.json"
+    ],
+    "minecraft:quartz_block": [
+        "smooth_quartz.json"
+    ],
+    "minecraft:rabbit": [
+        "cooked_rabbit.json",
+        "cooked_rabbit_from_smoking.json"
+    ],
+    "minecraft:red_sand": [
+        "glass.json"
+    ],
+    "minecraft:red_sandstone": [
+        "smooth_red_sandstone.json"
+    ],
+    "minecraft:red_terracotta": [
+        "red_glazed_terracotta.json"
+    ],
+    "minecraft:redstone_ore": [
+        "redstone_from_blasting.json",
+        "redstone_from_smelting.json"
+    ],
+    "minecraft:salmon": [
+        "cooked_salmon.json",
+        "cooked_salmon_from_smoking.json"
+    ],
+    "minecraft:sand": [
+        "glass.json"
+    ],
+    "minecraft:sandstone": [
+        "smooth_sandstone.json"
+    ],
+    "minecraft:sea_pickle": [
+        "lime_dye_from_smelting.json"
+    ],
+    "minecraft:spruce_log": [
+        "charcoal.json"
+    ],
+    "minecraft:spruce_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stone": [
+        "smooth_stone.json"
+    ],
+    "minecraft:stone_bricks": [
+        "cracked_stone_bricks.json"
+    ],
+    "minecraft:stripped_acacia_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_acacia_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_birch_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_birch_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_dark_oak_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_dark_oak_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_jungle_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_jungle_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_oak_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_oak_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_spruce_log": [
+        "charcoal.json"
+    ],
+    "minecraft:stripped_spruce_wood": [
+        "charcoal.json"
+    ],
+    "minecraft:wet_sponge": [
+        "sponge.json"
+    ],
+    "minecraft:white_terracotta": [
+        "white_glazed_terracotta.json"
+    ],
+    "minecraft:yellow_terracotta": [
+        "yellow_glazed_terracotta.json"
+    ]
+}
+
 
 verbose = False
 recursive = False
@@ -2180,7 +2512,6 @@ class SingleItemRecipe():
 
     def parse_recipe(self):
         path_to_namespace = os.path.join(data_path, 'data', namespace)
-        # path_to_recipes = os.path.join(path_to_namespace, 'recipes')
         path_to_predicates = os.path.join(path_to_namespace, 'predicates', 'recipes', self.name)
         path_to_function_recipes = os.path.join(path_to_namespace, 'functions', 'recipes', self.block)
         path_to_get_recipe = os.path.join(path_to_namespace, 'functions', 'smelting', self.block, 'get_recipe')
@@ -2188,8 +2519,9 @@ class SingleItemRecipe():
         path_to_function_tags = os.path.join(path_to_namespace, 'tags', 'functions')
         path_to_check_recipes = os.path.join(path_to_get_recipe, 'check_recipes')
 
-        # if not os.path.exists(path_to_recipes):
-            # os.makedirs(path_to_recipes)
+        if self.item in vanilla_ingredients:
+            self.replace_vanilla_recipe()
+
         if not os.path.exists(path_to_predicates):
             os.makedirs(path_to_predicates)
         if not os.path.exists(path_to_function_recipes):
@@ -2207,17 +2539,11 @@ class SingleItemRecipe():
         with open(os.path.join(path_to_function_recipes, self.name + ".mcfunction"), 'w') as f:
             f.write(self.get_recipe_content())
 
-
-
-        # with open(os.path.join(path_to_recipes, self.exp_recipe_name), 'w') as f:
-        #     f.write(parent.get_exp_recipe())
-
         with open(os.path.join(path_to_predicates, "input.json"), 'w') as f:
             f.write(self.get_input_predicate())
 
         with open(os.path.join(path_to_predicates, "output.json"), 'w') as f:
             f.write(self.get_output_predicate())
-
 
         with open(os.path.join(path_to_found_recipe, self.name + ".mcfunction"), 'w') as f:
             f.write(self.get_found_recipe_content())
@@ -2440,15 +2766,59 @@ function {namespace}:playerdb/put_entry
 '''
 
     def get_found_recipe_content(self):
-        if self.nbt is None:
-            tag_length = 0
-        else:
-            tag_length = get_nbt_tag_length(self.nbt)
+        tag_length = get_nbt_tag_length(self.nbt)
         return\
 f'''scoreboard players set #nbtsmelt.recipe.tag.length nbtsmelt.var {tag_length}
 execute if score #nbtsmelt.recipe.tag.length nbtsmelt.var >= #nbtsmelt.recipe.tag.max_length nbtsmelt.var run scoreboard players set #nbtsmelt.recipe.id nbtsmelt.var {self.recipe_id}
 execute if score #nbtsmelt.recipe.tag.length nbtsmelt.var >= #nbtsmelt.recipe.tag.max_length nbtsmelt.var run scoreboard players operation #nbtsmelt.recipe.tag.max_length nbtsmelt.var = #nbtsmelt.recipe.tag.length nbtsmelt.var
 '''
+
+    def replace_vanilla_recipe(self):
+        path_to_minecraft_recipes = os.path.join(data_path, 'data', 'minecraft', 'recipes')
+        path_to_custom_minecraft_recipes = os.path.join("minecraft", "recipes")
+
+        if not os.path.exists(path_to_minecraft_recipes):
+            os.makedirs(path_to_minecraft_recipes)
+
+        json_files = vanilla_ingredients[self.item]
+
+        for json_file in json_files:
+            if os.path.isfile(os.path.join(path_to_minecraft_recipes, json_file)):
+                with open(os.path.join(path_to_minecraft_recipes, json_file), 'r') as f:
+                    file_json = json.load(f)
+            else:
+                with open(os.path.join(path_to_custom_minecraft_recipes, json_file), 'r') as f:
+                    file_json = json.load(f)
+            ingredient = file_json["ingredient"]
+
+            if isinstance(ingredient, list):
+                for ing in ingredient:
+                    if ing["item"] == self.item:
+                        ingredient.remove(ing)
+                        break
+            else:
+                if "item" in ingredient.keys():
+                    ingredient["item"] = "minecraft:bedrock"
+                elif "tag" in ingredient.keys():
+                    items = get_items_from_tag(ingredient["tag"])
+                    ingredient = []
+                    for item in items:
+                        if item != self.item:
+                            ingredient.append({"item": item})
+            file_json["ingredient"] = ingredient
+
+            with open(os.path.join(path_to_minecraft_recipes, json_file), 'w') as f:
+                f.write(json.dumps(file_json, indent=4))
+
+            # Parse new recipe, replacing vanilla one
+            if get_nbt_tag_length(self.nbt) > 0:
+                ingredient = {"item": self.item, "count": 1}
+                file_json["ingredient"] = ingredient
+                result = {"item": file_json["result"], "count": 1}
+                file_json["result"] = result
+
+                new_recipe = Recipe(file_json, os.sep + self.parent.name + '_minecraft.json')
+                new_recipe.parse()
 
 
 
@@ -2498,6 +2868,9 @@ def get_nbt(container):
     return None
 
 def get_nbt_tag_length(nbt_string):
+    if nbt_string is None:
+        return 0
+
     stack = []
     length = 0
     nbt_string = nbt_string[1:-1]
@@ -2970,8 +3343,8 @@ def get_files_from_dir(directory):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("data_path", help="Relative path to the 'data' folder of the datapack.")
     parser.add_argument("path", help="Relative path to the directory or file to parse. More directories/files can be included with --include.")
+    parser.add_argument("data_path", help="Relative path to the parent folder of the 'data' folder of the datapack.")
     parser.add_argument("-ns", "--namespace", help="Namespace that contains the NBT smelting modules. Defaults to 'nbtsmelt'.", default="nbtsmelt")
     parser.add_argument("-nr", "--no-replace", help="Does not parse recipes that already exist.", action="store_true", default=False)
     parser.add_argument("-v", "--verbose", help="Increases output verbosity.", action="store_true", default=False)
