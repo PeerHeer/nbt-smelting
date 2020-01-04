@@ -2751,7 +2751,7 @@ f'''# Reset Temp
 data modify storage nbtsmelt:furnace_recipes Temp set value {{}}
 
 # Input
-data modify storage nbtsmelt:furnace_recipes Temp.Input.Count set value 1b
+data modify storage nbtsmelt:furnace_recipes Temp.Input.Count set value {self.count}b
 
 # Output
 data modify storage nbtsmelt:furnace_recipes Temp.Output.Count set value {self.result.count}b
