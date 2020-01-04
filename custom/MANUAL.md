@@ -79,8 +79,22 @@ The parsing of a single recipe file will fail if at least one of the following c
 
 
 # Recipe Deleter
-## Description
+## Name
 The recipe deleter can be used to delete recipes.
 
 ## Usage
 `python recipe_deleter.py [-h] [-ns NAMESPACE] [-v] string_id data_path`
+
+## Description
+The recipe deleter deletes recipes that have been parsed by the recipe parser.
+
+## Arguments
+| Argument | Description |
+|----------|-------------|
+| `sring_id`   | String ID of the recipe to delete. This ID is equal to `<filename>_<item_id>` for all recipes. Only `<filename>` can be used to delete all recipes of a file and `*` can be used to delete all recipes. |
+| `data_path` | Path (relative to the execution location) to the parent directory of the `data` folder. This folder should contain a namespace called `nbtsmelt` **or** a namespace defined with the `--namespace` option. |
+
+## Options
+| `-h`, `--help` | Show a help message. |
+| `-ns`, `--namespace` **_namespace_** | The datapack namespace that contains the NBT Smelting file structure and modules. Defaults to `nbtsmelt`. |
+| `-v`, `--verbose` | Increases the level of output verbosity. Its most notable feature is displaying reasons why the parsing of a recipe failed. |
