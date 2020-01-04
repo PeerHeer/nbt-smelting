@@ -1,3 +1,4 @@
 *.txt
 parse_test/*
 custom/recipes/*
+custom/minecraft/*
