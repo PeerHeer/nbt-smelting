@@ -95,6 +95,8 @@ The recipe deleter deletes recipes that have been parsed by the recipe parser.
 | `data_path` | Path (relative to the execution location) to the parent directory of the `data` folder. This folder should contain a namespace called `nbtsmelt` **or** a namespace defined with the `--namespace` option. |
 
 ## Options
+| Option | Description |
+|--------|-------------|
 | `-h`, `--help` | Show a help message. |
 | `-ns`, `--namespace` **_namespace_** | The datapack namespace that contains the NBT Smelting file structure and modules. Defaults to `nbtsmelt`. |
 | `-v`, `--verbose` | Increases the level of output verbosity. Its most notable feature is displaying reasons why the parsing of a recipe failed. |
