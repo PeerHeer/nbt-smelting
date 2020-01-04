@@ -16,3 +16,5 @@ Recipes should be located in json files and use the [same format](https://minecr
 - `"count"` can now be added inside `ingredient` and `result` tags. Count is a single integer. For the `ingredient` tag, it specifies how many ingredients should be cooked when the `cookingtime` reaches its maximum. For the `result` tag, it specifies how many output items should be added to the output when the `cookingtime` reaches its maximum.
 
 Recipes can be added using the provided `recipe_parser.py` file and can be deleted using the `recipe_deleter.py` file, located in the `custom` folder. These files require [Python 3.8](https://www.python.org/downloads/release/python-381/) to be installed on your system. Documentation on the Recipe Parser and Recipe Deleter can be found in [`custom/MANUAL.md`](https://github.com/PeerHeer/nbt-smelting/blob/master/custom/MANUAL.md).
+
+Currently, only the Furnace block is supported. The Blasting Furnace and Smoker will be added in the future.
