@@ -3,6 +3,7 @@ import argparse
 import glob
 import os
 import sys
+import re
 from enum import Enum
 
 items_list = ["minecraft:acacia_boat",
@@ -2637,7 +2638,7 @@ f'''{{
                 "equipment": {{
                     "mainhand": {{
                         "item": "{self.item}",
-                        "nbt": "{self.nbt}",
+                        "nbt": {json.dumps(self.nbt)},
                         "count": {{
                             "min": {self.count}
                         }}
@@ -2695,7 +2696,7 @@ f'''{{
                 "equipment": {{
                     "offhand": {{
                         "item": "{self.result.item}",
-                        "nbt": "{self.result.nbt}",
+                        "nbt": {json.dumps(self.result.nbt)},
                         "count": {{
                             "max": {max_stack_sizes[self.result.item] - self.result.count}
                         }}
@@ -2743,6 +2744,8 @@ scoreboard players set #nbtsmelt.recipe.id nbtsmelt.var {self.recipe_id}
 function {namespace}:playerdb/put_entry
 '''
         else:
+            escaped_quote = '\\"'
+
             return\
 f'''# Reset Temp
 data modify storage nbtsmelt:furnace_recipes Temp set value {{}}
@@ -2752,7 +2755,7 @@ data modify storage nbtsmelt:furnace_recipes Temp.Input.Count set value 1b
 
 # Output
 data modify storage nbtsmelt:furnace_recipes Temp.Output.Count set value {self.result.count}b
-data modify storage nbtsmelt:furnace_recipes Temp.Output.Item set value {{id:"{self.result.item}", tag:{{{self.result.nbt}}}}}
+data modify storage nbtsmelt:furnace_recipes Temp.Output.Item set value {{id:"{self.result.item}", tag:{json.dumps(self.result.nbt)[1:-1].replace(escaped_quote, '"').replace(escaped_quote, '"')}}}
 
 # Exp reward
 data modify storage nbtsmelt:furnace_recipes Temp.ExperienceRecipe set value "{namespace}:{self.exp_recipe_name[0:-5]}"
