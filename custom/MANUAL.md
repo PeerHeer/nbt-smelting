@@ -6,7 +6,9 @@
 `python recipe_parser.py [-h] [-ns NAMESPACE] [-nr] [-v] [-r] [-e FILE_PATH] [-i FILE_PATH] path data_path`
 
 ## Description
-The recipe parser parses recipes from JSON files. The files have the same structure as regular recipes with some additions.
+The recipe parser parses recipes from JSON files. The files have the [same format as regular recipes](https://minecraft.gamepedia.com/Recipe#JSON_format) with some additions. For now, each `ingredient` and each `result` can have `nbt` and `count` fields. The recipe files are parsed according to their `ingredient` tag. For each `ingredient` item in a file, a new recipe is created with the ID `<filename>_<item_id>`.
+
+For parsed recipes that contain items that are already used in vanilla recipes, the vanilla recipe will be (partially) replaced. When the `nbt` field in the `ingredient` is specified, the vanilla recipe will be converted to an NBT Smelting recipe and will only be applied to items that do not match the previously mentioned `nbt` field value.
 
 ## Arguments
 | Argument | Description |
