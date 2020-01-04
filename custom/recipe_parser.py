@@ -2900,8 +2900,8 @@ def get_used_ids():
     used_ids = []
 
     files_furnace = [(f, path_furnace) for f in os.listdir(path_furnace) if os.path.isfile(os.path.join(path_furnace, f))]
-    # files_blasting_furnace = [f for f in os.listdir(path_blasting_furnace) if os.path.isfile(os.path.join(path_blasting_furnace, f))]
-    # files_smoker = [f for f in os.listdir(path_smoker) if os.path.isfile(os.path.join(path_smoker, f))]
+    files_blasting_furnace = [f for f in os.listdir(path_blasting_furnace) if os.path.isfile(os.path.join(path_blasting_furnace, f))]
+    files_smoker = [f for f in os.listdir(path_smoker) if os.path.isfile(os.path.join(path_smoker, f))]
     files = files_furnace
 
     for recipe_file, path in files:

@@ -19,6 +19,23 @@ def main(args):
     namespace = args.namespace
     data_path = args.data_path
 
+    if string_id != '*':
+        delete_single_recipe()
+    else:
+        delete_all_recipes()
+
+def delete_all_recipes():
+    # path_to_namespace = os.path.join(data_path, 'data', namespace)
+    # path_to_predicates = os.path.join(path_to_namespace, 'predicates', 'recipes')
+    # path_to_function_recipes = os.path.join(path_to_namespace, 'functions', 'recipes')
+    # path_to_get_recipe = os.path.join(path_to_namespace, 'functions', 'smelting', block, 'get_recipe')
+    # path_to_found_recipe = os.path.join(path_to_get_recipe, 'found_recipe')
+    # path_to_function_tags = os.path.join(path_to_namespace, 'tags', 'functions')
+    # path_to_check_recipes = os.path.join(path_to_get_recipe, 'check_recipes')
+    print("Feature not supported yet.")
+
+
+def delete_single_recipe():
     regex = re.compile(f"^{string_id}.*")
 
     path_to_namespace = os.path.join(data_path, 'data', namespace)
