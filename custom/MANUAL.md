@@ -80,7 +80,7 @@ The parsing of a single recipe file will fail if at least one of the following c
 
 # Recipe Deleter
 ## Name
-The recipe deleter can be used to delete recipes.
+`recipe_deleter.py`- can be used to delete recipes.
 
 ## Usage
 `python recipe_deleter.py [-h] [-ns NAMESPACE] [-v] string_id data_path`
