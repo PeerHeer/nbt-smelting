@@ -1,5 +1,5 @@
 # NBT smelting
-A datapack that allows the user to smelt items using input and output NBT data and item count.
+A datapack that allows the user to smelt items using input and output NBT data and item count, without altering the behaviour of normal Funaces, Blasting Furnaces or Smokers.
 
 # Why?
 In vanilla minecraft, there is no way to use NBT on items as input or output using custom recipes in a datapack. This datapack aims to solve this issue.
