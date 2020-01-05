@@ -18,3 +18,10 @@ Recipes should be located in json files and use the [same format](https://minecr
 Recipes can be added using the provided `recipe_parser.py` file and can be deleted using the `recipe_deleter.py` file, located in the `custom` folder. These files require [Python 3.8](https://www.python.org/downloads/release/python-381/) to be installed on your system. Documentation on the Recipe Parser and Recipe Deleter can be found in [`custom/MANUAL.md`](https://github.com/PeerHeer/nbt-smelting/blob/master/custom/MANUAL.md).
 
 **NOTE:** Currently, only the Furnace block is supported. The Blasting Furnace and Smoker will be added in the future.
+
+# Performance
+This datapack adds about 7 to 8 mspt per 32 active furnaces. It is adviced not to have a lot of furnaces active at the same time.
+
+# Planned features
+- Add Blasting Furnace and Smoker support
+- Correctly delete overridden recipes
