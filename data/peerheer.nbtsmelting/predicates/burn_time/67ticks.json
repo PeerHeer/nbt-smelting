@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "tag": "peerheer.nbtsmelting:burn_time/67ticks"
+            }
+        }
+    },
+    "entity": "this"
+}

@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#peerheer.nbtsmelting:burn_time/50ticks",
+        "#peerheer.nbtsmelting:burn_time/67ticks",
+        "#peerheer.nbtsmelting:burn_time/100ticks",
+        "#peerheer.nbtsmelting:burn_time/150ticks",
+        "#peerheer.nbtsmelting:burn_time/200ticks",
+        "#peerheer.nbtsmelting:burn_time/300ticks",
+        "#peerheer.nbtsmelting:burn_time/1200ticks",
+        "#peerheer.nbtsmelting:burn_time/2400ticks",
+        "#peerheer.nbtsmelting:burn_time/4000ticks",
+        "#peerheer.nbtsmelting:burn_time/16000ticks",
+        "#peerheer.nbtsmelting:burn_time/20000ticks"
+    ]
+}

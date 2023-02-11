@@ -1,2 +1,0 @@
-execute as @e[tag=nbtsmelt.furnace_marker, tag=nbtsmelt.marker.busy] at @s run function nbtsmelt:smelting/furnace/check_if_input
-# execute as @e[tag=nbtsmelt.furnace_marker] at @s run function nbtsmelt:smelting/furnace/idle_check

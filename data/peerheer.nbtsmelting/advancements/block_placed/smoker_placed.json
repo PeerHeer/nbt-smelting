@@ -1,0 +1,13 @@
+{
+    "rewards": {
+        "function": "peerheer.nbtsmelting:mark_block/advancements/smoker_placed"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:smoker"
+            }
+        }
+    }
+}

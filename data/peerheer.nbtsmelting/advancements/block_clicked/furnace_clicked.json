@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "peerheer.nbtsmelting:states/idle/advancements/furnace_clicked"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:furnace"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

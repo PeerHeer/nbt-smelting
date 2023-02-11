@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 5,
-        "description": "A datapack that enables smelting using NBT and item counts."
+        "pack_format": 11,
+        "description": "Smelt items using NBT, item counts, enchantments and more!"
     }
 }

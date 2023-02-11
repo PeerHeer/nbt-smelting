@@ -1,3 +1,0 @@
-execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 0..32 run function nbtsmelt:smelting/furnace/smelt/experience/cache/0_32
-execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 33..65 run function nbtsmelt:smelting/furnace/smelt/experience/cache/33_65
-execute if score #nbtsmelt.recipe.stored.index nbtsmelt.var matches 66..98 run function nbtsmelt:smelting/furnace/smelt/experience/cache/66_98

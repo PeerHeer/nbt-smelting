@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "NBT Smelting",
+    "description": "NBT Smelting datapack for Minecraft 1.19 by PeerHeer",
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "background": "minecraft:textures/block/black_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:peerheer",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

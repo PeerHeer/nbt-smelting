@@ -1,2 +1,0 @@
-execute if score #nbtsmelt.recipe.id.length nbtsmelt.var matches 13..16 run function nbtsmelt:smelting/furnace/get_recipe/get_length/13_16
-execute if score #nbtsmelt.recipe.id.length nbtsmelt.var matches 17..19 run function nbtsmelt:smelting/furnace/get_recipe/get_length/17_19
