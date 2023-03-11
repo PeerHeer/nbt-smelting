@@ -8,4 +8,4 @@
 execute as @e[type=minecraft:marker, tag=peerheer.nbtsmelting.entity.marker] at @s run function peerheer.nbtsmelting:states/process_state
 
 # Schedule function again.
-schedule function peerheer.nbtsmelting:schedule_1t 1t replace
+schedule function peerheer.nbtsmelting:schedule/schedule_1t 1t replace

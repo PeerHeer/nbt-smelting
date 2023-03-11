@@ -6,6 +6,7 @@
 # Sets a tag to save this state and signals that there is a hopper or dropper going into the fuel slot.
 
 # Set tag.
+tag @s add peerheer.nbtsmelting.entity.marker.hopper_dropper
 tag @s add peerheer.nbtsmelting.entity.marker.fuel_hopper_dropper
 
 # Signal that there is a hopper or dropper facing into the fuel slot.

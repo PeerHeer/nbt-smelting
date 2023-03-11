@@ -1,0 +1,13 @@
+{
+    "rewards": {
+        "function": "peerheer.nbtsmelting:states/idle/advancements/dropper_placed"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dropper"
+            }
+        }
+    }
+}
