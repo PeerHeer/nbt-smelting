@@ -1,9 +1,10 @@
 #> peerheer.nbtsmelting:mark_block/advancements/smoker_placed
-#
-# Author: PeerHeer
-#
-# Called when a player places a smoker.
-# Search for and mark the placed block.
+#>
+#> Author:
+#>    PeerHeer (https://github.com/PeerHeer)
+#>
+#> Description:
+#>    Looks for a placed smoker.
 
 # Revoke advancement.
 advancement revoke @s only peerheer.nbtsmelting:block_placed/smoker_placed

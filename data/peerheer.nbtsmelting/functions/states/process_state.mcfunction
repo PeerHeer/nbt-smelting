@@ -1,7 +1,10 @@
-scoreboard players set #nbtsmelting.entity.is_processed peerheer.global 0
+#> peerheer.nbtsmelting:states/process_state
 
-# Enter appropriate state according to tag. Only one state is processed per tick.
-# Only do IDLE checks if player is at most 8 blocks away.
-# 8 blocks because this is the distance at which a player is kicked out of the GUI.
-execute if score #nbtsmelting.entity.is_processed peerheer.global matches 0 if entity @s[tag=peerheer.nbtsmelting.entity.marker.state.checking] run function peerheer.nbtsmelting:states/checking/tick_state
-execute if score #nbtsmelting.entity.is_processed peerheer.global matches 0 if entity @s[tag=peerheer.nbtsmelting.entity.marker.state.smelting] run function peerheer.nbtsmelting:states/smelting/tick_state
+# Reset score for indicating that occupied slots were checked this tick.
+scoreboard players set #peerheer.nbtsmelting.block.occupied_slots_checked peerheer.global 0
+
+# If a player is inside the GUI and changed his inventory, check for occupied slots.
+execute if entity @s[tag=peerheer.nbtsmelting.entity.marker.state.idle, tag=peerheer.nbtsmelting.entity.marker.player_interacted, tag=peerheer.nbtsmelting.entity.marker.player_inventory_changed] run function peerheer.nbtsmelting:states/idle/check_occupied_slots
+
+# If the furnace has inputs for both slots attached by hoppers or droppers, check for occupied slots.
+execute if entity @s[tag=peerheer.nbtsmelting.entity.marker.state.idle, tag=peerheer.nbtsmelting.entity.marker.input_hopper_dropper, tag=peerheer.nbtsmelting.entity.marker.fuel_hopper_dropper] unless score #peerheer.nbtsmelting.block.occupied_slots_checked peerheer.global matches 1 run function peerheer.nbtsmelting:states/idle/check_occupied_slots

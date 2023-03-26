@@ -1,0 +1,1 @@
+function peerheer.nbtsmelting:states/idle/gui_interaction/remove_tags

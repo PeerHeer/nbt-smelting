@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "peerheer.nbtsmelting:states/idle/advancements/hopper_placed"
+        "function": "peerheer.nbtsmelting:states/idle/advancements/block_placed/hopper_placed"
     },
     "criteria": {
         "requirement": {

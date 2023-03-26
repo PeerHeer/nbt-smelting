@@ -1,0 +1,2 @@
+# execute as @e[type=minecraft:marker, tag=peerheer.nbtsmelting.entity.marker.state.idle, tag=peerheer.nbtsmelting.entity.marker.player_inventory_changed, tag=peerheer.nbtsmelting.entity.marker.player_interacted] at @s if entity @a[advancements={peerheer.nbtsmelting:inventory_changed=true}, distance=..9, limit=1] run say both tags (inventory changed)!
+advancement revoke @a only peerheer.nbtsmelting:inventory_changed

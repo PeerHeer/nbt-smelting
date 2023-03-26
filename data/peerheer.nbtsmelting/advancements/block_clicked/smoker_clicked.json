@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "peerheer.nbtsmelting:states/idle/advancements/smoker_clicked"
+        "function": "peerheer.nbtsmelting:states/idle/advancements/block_clicked/smoker_clicked"
     },
     "criteria": {
         "requirement": {

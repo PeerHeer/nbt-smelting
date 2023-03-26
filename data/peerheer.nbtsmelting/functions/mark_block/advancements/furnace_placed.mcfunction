@@ -1,9 +1,10 @@
 #> peerheer.nbtsmelting:mark_block/advancements/furnace_placed
-#
-# Author: PeerHeer
-#
-# Called when a player places a furnace.
-# Search for and mark the placed block.
+#>
+#> Author:
+#>    PeerHeer (https://github.com/PeerHeer)
+#>
+#> Description:
+#>    Looks for a placed furnace.
 
 # Revoke advancement.
 advancement revoke @s only peerheer.nbtsmelting:block_placed/furnace_placed

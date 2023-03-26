@@ -8,5 +8,3 @@ execute if block ~ ~ ~1 minecraft:dropper[facing=north] run function peerheer.nb
 execute if block ~ ~ ~-1 minecraft:dropper[facing=south] run function peerheer.nbtsmelting:states/idle/hopper_dropper_checks/found_fuel_hopper_dropper
 execute if block ~-1 ~ ~ minecraft:dropper[facing=east] run function peerheer.nbtsmelting:states/idle/hopper_dropper_checks/found_fuel_hopper_dropper
 execute if block ~1 ~ ~ minecraft:dropper[facing=west] run function peerheer.nbtsmelting:states/idle/hopper_dropper_checks/found_fuel_hopper_dropper
-
-execute if entity @s[tag=peerheer.nbtsmelting.entity.marker.hopper_dropper] run function peerheer.nbtsmelting:states/checking/change_state_to_checking

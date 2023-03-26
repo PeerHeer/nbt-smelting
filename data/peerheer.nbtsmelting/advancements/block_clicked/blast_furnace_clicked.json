@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "peerheer.nbtsmelting:states/idle/advancements/blast_furnace_clicked"
+        "function": "peerheer.nbtsmelting:states/idle/advancements/block_clicked/blast_furnace_clicked"
     },
     "criteria": {
         "requirement": {

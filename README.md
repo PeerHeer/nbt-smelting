@@ -35,3 +35,14 @@ When the player places a smelter, it is marked by a marker entity.
 - When in the CHECKING state, we **cannot**:
     - Assume the player is out of the GUI when moving: they may be pushed by a mob or in water, or they may be falling.
     - Use raycasting for player interaction: the ray may miss if the player is falling or otherwise moving quickly while interacting with the smelter.
+
+# Problems encountered
+## Ray casting is too slow
+- When a ray is cast after placing a block, this ray can miss the block if the player moves the screen too quickly while placing that block.
+- Therefore, we need to check every coordinate around the player for the placed block.
+- More information in `data/peerheer.nbtsmelting/functions/mark_block/find_block`.
+
+## Opening a GUI triggers the `inventory_changed` advancement
+- When a player opens the GUI, the `inventory_changed` advancement is triggered once for every occupied slot.
+- I only want the marker to check the slots of its block when the player's inventory changes **after** the player opened the GUI.
+- To solve this, we need to ignore the `inventory_changed` advancement if it triggered in the same tick as the `item_used_on_block` advancement.

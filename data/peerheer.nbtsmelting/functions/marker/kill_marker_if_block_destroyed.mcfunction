@@ -1,8 +1,10 @@
 #> peerheer.nbtsmelting:marker/kill_marker_if_block_destroyed
-#
-# Author: PeerHeer
-#
-# Kills the marker if the corresponding block was destroyed.
+#>
+#> Author:
+#>    PeerHeer (https://github.com/PeerHeer)
+#>
+#> Description:
+#>    Kills the marker when its block is destroyed.
 
 # If the block was destroyed, kill the marker.
 execute if entity @s[tag=peerheer.nbtsmelting.entity.marker.block.furnace] unless block ~ ~ ~ minecraft:furnace run kill @s
